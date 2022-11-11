@@ -24,11 +24,11 @@
         <form action="welcome.html" method="post">
             <label for="first-name">First Name : </label>
             <br>
-            <input type="text" name="first-name" id="first-name" class="name" placeholder="Dafa">
+            <input type="text" name="first-name" id="first-name" class="name" placeholder="Junika">
             <br>
             <label for="last-name">Last Name :</label>
             <br>
-            <input type="text" name="last-name" id="last-name" class="name" placeholder="Alfauzi">
+            <input type="text" name="last-name" id="last-name" class="name" placeholder="Markos">
             <br>
             <label for="gender">Gender :</label>
             <br>

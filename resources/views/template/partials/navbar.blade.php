@@ -49,11 +49,11 @@
                         <img src="{{ asset ('adminlte/dist/img/user1-128x128.jpg') }}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                         <div class="media-body">
                             <h3 class="dropdown-item-title">
-                                Brad Diesel
+                                Junika Markos
                                 <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                             </h3>
-                            <p class="text-sm">Call me whenever you can...</p>
-                            <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                            <p class="text-sm">GALATIA 4:11</p>
+                            <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i>1 minute later</p>
                         </div>
                     </div>
                     <!-- Message End -->
@@ -65,10 +65,10 @@
                         <img src="{{ asset ('adminlte/dist/img/user8-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
                         <div class="media-body">
                             <h3 class="dropdown-item-title">
-                                John Pierce
+                                ASTA 
                                 <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                             </h3>
-                            <p class="text-sm">I got your message bro</p>
+                            <p class="text-sm">Selama aku tak menyerah, aku bisa melakukan apa saja !!!</p>
                             <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
                         </div>
                     </div>
@@ -81,10 +81,10 @@
                         <img src="{{ asset ('adminlte/dist/img/user3-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
                         <div class="media-body">
                             <h3 class="dropdown-item-title">
-                                Nora Silvester
+                                SAITAMA
                                 <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                             </h3>
-                            <p class="text-sm">The subject goes here</p>
+                            <p class="text-sm">Manusia itu kuat karena memiliki kemampuan untuk merubah dirinya sendiri !!!</p>
                             <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
                         </div>
                     </div>
@@ -98,23 +98,23 @@
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
                 <i class="far fa-bell"></i>
-                <span class="badge badge-warning navbar-badge">15</span>
+                <span class="badge badge-warning navbar-badge">99+</span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                <span class="dropdown-item dropdown-header">15 Notifications</span>
+                <span class="dropdown-item dropdown-header">99+ Notifications</span>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                    <i class="fas fa-envelope mr-2"></i> 4 new messages
+                    <i class="fas fa-envelope mr-2"></i> 99+ new messages
                     <span class="float-right text-muted text-sm">3 mins</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                    <i class="fas fa-users mr-2"></i> 8 friend requests
+                    <i class="fas fa-users mr-2"></i> 99+ friend requests
                     <span class="float-right text-muted text-sm">12 hours</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                    <i class="fas fa-file mr-2"></i> 3 new reports
+                    <i class="fas fa-file mr-2"></i> 99+ new reports
                     <span class="float-right text-muted text-sm">2 days</span>
                 </a>
                 <div class="dropdown-divider"></div>
