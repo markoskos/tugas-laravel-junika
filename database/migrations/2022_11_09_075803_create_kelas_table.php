@@ -13,6 +13,7 @@ class CreateKelasTable extends Migration
      */
     public function up()
     {
+        if (!Schema::hasTable('kelas')) {
         Schema::create('kelas', function (Blueprint $table) {
             $table->id();
             $table->integer('kelas');
@@ -22,6 +23,7 @@ class CreateKelasTable extends Migration
 
             $table->timestamps();
         });
+    }
     }
 
     /**
