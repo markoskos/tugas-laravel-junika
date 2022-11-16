@@ -1,14 +1,12 @@
 @extends('template.masterlimbad')
 
 @section('judul')
+<h1>Manajemen Siswa</h1>
 
 @endsection
 
 @section('content')
 <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <!-- left column -->
           <div class="col-md-12">
             <!-- general form elements -->
             <div class="card card-primary">
@@ -18,24 +16,23 @@
               <!-- /.card-header -->
               <!-- form start -->
               <form action="/student" method="POST">
-                    @csrf
+                @csrf
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="inputNIS">Nomor Induk Siswa</label>
-                    <input type="NIS" name="NIS" class="form-control" id="inputNIS" placeholder="Enter NIS">
+                    <label for="InputNIS">Nomor Induk Siswa</label>
+                    <input type="text" name="nisn" class="form-control" id="InputNIS" placeholder="Nomor induk siswa">
                   </div>
-                </div>
-                <div class="card-body">
+                  
                   <div class="form-group">
-                    <label for="inputNAMA">Nama Siswa</label>
-                    <input type="NAMA" name="Nama" class="form-control" id="inputNAMA" placeholder="Enter NAMA">
+                    <label for="InputNama">Nama Siswa</label>
+                    <input type="text" name="nama" class="form-control" id="InputNama" placeholder="Nama siswa">
                   </div>
-                </div>
-                <div class="card-body">
+                  
                   <div class="form-group">
-                    <label for="inputALAMAT">ALAMAT</label>
-                    <textarea class="form-control" name="ALAMAT" rows="3" placeholder="Enter ALAMAT"></textarea>
+                    <label for="InputAlamat">Alamat</label>
+                    <input type="text" name="alamat" class="form-control" id="InputAlamat" placeholder="Alamat">
                   </div>
+                  
                   <div class="form-group">
                 <label>Jenis Kelamin</label>
                 <select class="form-control" name="jenis_kelamin">
@@ -46,15 +43,10 @@
               </div>
                 </div>
                 <!-- /.card-body -->
+
                 <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
               </form>
             </div>
-          </div>
-          <!--/.col (right) -->
-        </div>
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </section>
 @endsection

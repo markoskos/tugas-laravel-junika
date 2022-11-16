@@ -15,7 +15,6 @@ class CreateSiswaTable extends Migration
     {
         if (!Schema::hasTable('siswa')) {
             Schema::create('siswa', function (Blueprint $table) {
-                $table->id();
                 //nis menggunakan tipe data integer
                 $table->integer('nisn');
                 //nama menggunakan tipe data varchar
@@ -23,7 +22,7 @@ class CreateSiswaTable extends Migration
                 //alamat  menggunakan tipe data varchar
                 $table->string('alamat', 200);
                 //menggunakan string  menggunakan tipe data varchar
-                $table->string('jenis_kelamin');
+                $table->string('jenis_kelamin', );
                 //menggunakan enum  menggunakan tipe data enum
                 $table->timestamps();
             });

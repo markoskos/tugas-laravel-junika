@@ -6,6 +6,7 @@ use App\Http\Controllers\AkunController;
 use App\Http\Controllers\TemplateController;
 use App\Http\Controllers\TableController;
 use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\KelasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,3 +52,4 @@ route::get('/data', [TableController::class, 'data'])->name('data');
 // });
 
 route::resource('student', SiswaController::class);
+route::resource('kelas', KelasController::class);

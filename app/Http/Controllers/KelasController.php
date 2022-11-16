@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class SiswaController extends Controller
+class KelasController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class SiswaController extends Controller
     public function index()
     {
         //
-        return view('student.index');
+        return view('kelas.index');
     }
 
     /**
@@ -26,7 +26,7 @@ class SiswaController extends Controller
     public function create()
     {
         //
-        return view('student.create');
+        return view('kelas.create');
     }
 
     /**
@@ -39,19 +39,14 @@ class SiswaController extends Controller
     {
         //
         $request->validate([
-            'nisn' => 'required',
-            'nama' => 'required',
-            'alamat' => 'required',
-            'jenis_kelamin' => 'required',
+            'nama_kelas' => 'required',
+            'jurusan' => 'required',
         ]);
-        $query = DB::table('siswa')->insert([
-            "nisn"=> $request["nisn"],
-            "nama"=>$request["nama"],
-            "alamat"=>$request["alamat"],
-            "jenis_kelamin"=>$request["jenis_kelamin"],
+        $query = DB::table('kelas')->insert([
+            "nama_siswa" => $request["nama_kelas"],
+            "jurusan" => $request["jurusan"],
         ]);
-
-        return redirect('/student');
+        return redirect('/kelas');
     }
 
     /**
